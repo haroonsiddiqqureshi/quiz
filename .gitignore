@@ -27,7 +27,10 @@ yarn-error.log*
 
 # local env files
 .env*.local
+<<<<<<< HEAD
 .env
+=======
+>>>>>>> 1463aec (First commit)
 
 # vercel
 .vercel

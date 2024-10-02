@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import { AuthProvider } from "./Providers";
+>>>>>>> 1463aec (First commit)
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -26,6 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
+<<<<<<< HEAD
         className={`${geistSans.variable} ${geistMono.variable} antialiased p-2`}
       >
         {children}
@@ -33,3 +38,13 @@ export default function RootLayout({
     </html>
   );
 }
+=======
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <AuthProvider>
+          {children}
+        </AuthProvider>
+      </body>
+    </html>
+  );
+}
+>>>>>>> 1463aec (First commit)

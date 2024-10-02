@@ -9,9 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "mongoose": "^8.7.0",
     "next": "14.2.13",
     "react": "^18",
+=======
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "chart.js": "^4.4.4",
+    "mongoose": "^8.7.0",
+    "next": "14.2.13",
+    "next-auth": "^4.24.8",
+    "react": "^18",
+    "react-chartjs-2": "^5.2.0",
+>>>>>>> 1463aec (First commit)
     "react-dom": "^18"
   },
   "devDependencies": {
